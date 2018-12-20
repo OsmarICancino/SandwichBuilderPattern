@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_parent"
+        tools:context=".MainActivity">
+
+    <TextView
+            android:text="@string/bread_title"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/padding_bottom"/>
+
+    <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <RadioButton
+                android:id="@+id/radio_baguette"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="@string/baguette"
+                android:paddingBottom="@dimen/padding_bottom"/>
+
+        <RadioButton
+                android:id="@+id/radio_baguele"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="@string/baguele"
+                android:paddingBottom="@dimen/padding_bottom"/>
+
+    </RadioGroup>
+
+    <TextView
+            android:text="@string/ingredients"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/padding_bottom"
+            android:paddingTop="@dimen/padding_parent"/>
+
+    <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/check_ham"
+            android:checked="false"
+            android:paddingBottom="@dimen/padding_bottom"
+            android:text="@string/ham"/>
+    <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/check_cheese"
+            android:checked="false"
+            android:paddingBottom="@dimen/padding_bottom"
+            android:text="@string/cheese"/>
+    <Switch
+            android:id="@+id/switch_salt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/padding_bottom"
+            android:text="@string/salt"
+            android:paddingTop="@dimen/padding_parent"
+            android:checked="false"/>
+
+    <RelativeLayout
+            android:id="@+id/action_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <TextView
+                android:id="@+id/action_ok"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_gravity="end"
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true"
+                android:minWidth="@dimen/min_dp"
+                android:padding="@dimen/padding_parent"
+                android:text="@string/ok"
+                android:textColor="@color/colorAccent"
+                android:onClick="actionOkClicked"/>
+        <TextView
+                android:id="@+id/action_cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toStartOf="@id/action_ok"
+                android:layout_gravity="end"
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true"
+                android:minWidth="@dimen/min_dp"
+                android:padding="@dimen/padding_parent"
+                android:text="@string/cancel"
+                android:textColor="@color/colorAccent"/>
+    </RelativeLayout>
+
+    <TextView
+            android:id="@+id/textview_order"
+            android:padding="@dimen/padding_parent"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+</LinearLayout>

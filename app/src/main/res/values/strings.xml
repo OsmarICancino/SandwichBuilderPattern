@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">SadnwichBuilderPattern</string>
+    <string name="baguette">Barra de pan</string>
+    <string name="baguele">Rosquilla</string>
+    <string name="bread_title">Tipo de pan</string>
+    <string name="ingredients">Ingredientes</string>
+    <string name="ham">Jamon York</string>
+    <string name="cheese">Queso</string>
+    <string name="salt">Sal</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancelar</string>
+</resources>
