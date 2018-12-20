@@ -1,5 +1,5 @@
 # SandwichBuilderPattern
-Android Project built using Kotlin to demostrate the BuilderPattern in a example building a Sandwich with several ingredients and procesing the information in the ActivityMain
+Android Project built using Kotlin to demonstrate the BuilderPattern in a example building a Sandwich with several ingredients and procesing the information in the ActivityMain
 
 <br>
 <img src="https://github.com/OsmarICancino/SandwichBuilderPattern/blob/master/device-2018-12-20-084854.png" />
