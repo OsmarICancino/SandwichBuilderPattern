@@ -37,4 +37,4 @@ Mobile Application Engineer
        src="https://github.com/OsmarICancino/AppUPImage/blob/master/app/src/main/res/drawable/fb_icon.png" />
 </a>
 
-#PHP #Android #Kotlin #DesignPatterns
+#Android #Kotlin #DesignPatterns
